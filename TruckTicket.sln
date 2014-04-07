@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{CB98464B-EA02-4888-9422-D11AC87844AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckTicket.Core", "Library\TruckTicket.Core\TruckTicket.Core.csproj", "{E394D6A5-630A-4E3C-934D-5806775320A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{0AAE1F34-90AB-4B94-86D1-7A5808B5863D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{09C7795C-3B75-41C8-A499-6C9F4857D92D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckTicket.Core.Test", "Test\TruckTicket.Core.Test\TruckTicket.Core.Test.csproj", "{5A7B650C-4572-4936-8283-3767D7ED3E59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data.truckTicket.com", "UI\data.truckTicket.com\data.truckTicket.com.csproj", "{0F281356-C910-4BC1-A41D-1676B78CBA42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckTicket.Data", "Library\TruckTicket.Data\TruckTicket.Data.csproj", "{63A14A0B-70A1-4AF3-8303-BEE1FC113CBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E394D6A5-630A-4E3C-934D-5806775320A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E394D6A5-630A-4E3C-934D-5806775320A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E394D6A5-630A-4E3C-934D-5806775320A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E394D6A5-630A-4E3C-934D-5806775320A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A7B650C-4572-4936-8283-3767D7ED3E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A7B650C-4572-4936-8283-3767D7ED3E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A7B650C-4572-4936-8283-3767D7ED3E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A7B650C-4572-4936-8283-3767D7ED3E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F281356-C910-4BC1-A41D-1676B78CBA42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F281356-C910-4BC1-A41D-1676B78CBA42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F281356-C910-4BC1-A41D-1676B78CBA42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F281356-C910-4BC1-A41D-1676B78CBA42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63A14A0B-70A1-4AF3-8303-BEE1FC113CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A14A0B-70A1-4AF3-8303-BEE1FC113CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A14A0B-70A1-4AF3-8303-BEE1FC113CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A14A0B-70A1-4AF3-8303-BEE1FC113CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E394D6A5-630A-4E3C-934D-5806775320A3} = {CB98464B-EA02-4888-9422-D11AC87844AE}
+		{63A14A0B-70A1-4AF3-8303-BEE1FC113CBC} = {CB98464B-EA02-4888-9422-D11AC87844AE}
+		{5A7B650C-4572-4936-8283-3767D7ED3E59} = {0AAE1F34-90AB-4B94-86D1-7A5808B5863D}
+		{0F281356-C910-4BC1-A41D-1676B78CBA42} = {09C7795C-3B75-41C8-A499-6C9F4857D92D}
+	EndGlobalSection
+EndGlobal
